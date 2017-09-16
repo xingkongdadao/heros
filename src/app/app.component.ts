@@ -1,13 +1,7 @@
 import { Component } from '@angular/core';
-
-// 添加英雄对象
-export class Hero {
-  id: number;
-  name: string;
+import {Hero} from './modules/hero';
 
 
-
-}
 
 const HEROES: Hero[] = [
   { id: 11, name: 'Mr. Nice' },
